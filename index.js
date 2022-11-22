@@ -107,7 +107,7 @@ function appMenu() {
                 addIntern();
                 break;
             default:
-                buildTeam;
+                buildTeam();
         }
     });
   }
@@ -170,7 +170,7 @@ function appMenu() {
               answers.engineerGitHub
             );
             teamMembers.push(engineer);
-            idArray.push(answers.engineer);
+            idArray.push(answers.engineerId);
             createTeam();
 		});
   }
@@ -233,7 +233,7 @@ function appMenu() {
               answers.internGitHub
             );
             teamMembers.push(intern);
-            idArray.push(answers.intern);
+            idArray.push(answers.internId);
             createTeam();
 		});
   }

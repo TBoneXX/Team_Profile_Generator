@@ -25,6 +25,7 @@ const generateTeam = team => {
         return `
         <div class="card employee-card">
         <div class="card-header">
+        <h2 class="card-title text-danger">${engineer.name}</h2>
             <h3 class="mr-3">${engineer.getRole()}
 			</h3>
         </div>
