@@ -53,7 +53,7 @@ const generateTeam = team => {
             
                 <p>ID: ${intern.id}</p>
                 <p>Email: ${intern.email}<a href="mailto:${intern.email}"></a></p>
-                <p>School: ${intern.school}</p>
+                <p>School: ${intern.getSchool()}</p>
             
         </div>
     </div>`;

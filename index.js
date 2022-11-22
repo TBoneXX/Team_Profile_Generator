@@ -167,7 +167,7 @@ function appMenu() {
               answers.engineerName,
               answers.engineerId,
               answers.engineerEmail,
-              answers.engineerGitHub
+              answers.engineerGitHub,
             );
             teamMembers.push(engineer);
             idArray.push(answers.engineerId);
@@ -230,7 +230,7 @@ function appMenu() {
               answers.internName,
               answers.internId,
               answers.internEmail,
-              answers.internGitHub
+              answers.internSchool,
             );
             teamMembers.push(intern);
             idArray.push(answers.internId);
