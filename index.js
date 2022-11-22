@@ -167,7 +167,7 @@ function appMenu() {
               answers.engineerName,
               answers.engineerId,
               answers.engineerEmail,
-              answers.engineerGitHub,
+              answers.engineerGithub,
             );
             teamMembers.push(engineer);
             idArray.push(answers.engineerId);
