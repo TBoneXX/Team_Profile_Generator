@@ -1,8 +1,12 @@
 # Team Profile Generator
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+
 ## Description
 This application uses Node.js and inquirer prompts to generate a team profile HTML page showing the manager, engineers, and interns for a given team. The project also utilizes Jest to test the program.
+
+Link to demonstration: <a href= "https://drive.google.com/file/d/1bFM6PQKVZHqVU1hdbG2IRJDhgVnVP202/view">Demo</a>
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
